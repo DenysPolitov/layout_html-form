@@ -8,10 +8,9 @@
     >
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>HTML Form</title>
-    <link rel="stylesheet" href="./style.css">
+    <link rel="stylesheet" href="style.css">
   </head>
   <body>
-    <h1>HTML Form</h1>
     <form action="https://mate-academy-form-lesson.herokuapp.com/create-application" method="post">
 
       <fieldset class="form-part">
@@ -36,7 +35,7 @@
         </label>
 
         <label class="form-field">
-          How old are you?
+          How old are You?
           <input
           type="number"
           name="age"
@@ -47,7 +46,7 @@
         </label>
 
         <label class="form-field">
-          Full date of birth <input type="date" name="birthdate">
+          Full date of birth: <input type="date" name="birthdate">
         </label>
 
         <label class="form-field">
@@ -114,15 +113,8 @@
         </label>
 
         <label class="form-field">
-          What is your favorite brand cars?
+          What are your favorite brand of cars?
           <select name="favBrand" multiple>
-            <option
-            value=" "
-            disabled
-            selected
-            >
-              Choose an answer
-            </option>
             <option value="BMW">BMW</option>
             <option value="Audi">Audi</option>
             <option value="Lada">Lada</option>
@@ -141,17 +133,10 @@
           Comments: <textarea name="comments" autocomplete="off"></textarea>
         </label>
         <label class="form-field">
-          Whould you recommend us?
+          Would you recommend us?
           <select name="recommendation">
-            <option
-            value=" "
-            disabled
-            selected
-            >
-              Choose an answer
-            </option>
-            <option value="y">Yes</option>
-            <option value="n">No</option>
+            <option value="y">yes</option>
+            <option value="n">no</option>
           </select>
         </label>
       </fieldset>

@@ -1,13 +1,14 @@
 /* styles go here */
-.form-field {
-  display: block;
-  padding: 5px 0;
-}
-
-button {
-  margin: 10px;
+.header {
+  text-align: center;
 }
 
 .form-part {
-  margin: 20px 0;
+  margin-bottom: 20px;
+  padding-bottom: 0;
+}
+
+.form-field {
+  display: block;
+  margin-bottom: 10px;
 }
